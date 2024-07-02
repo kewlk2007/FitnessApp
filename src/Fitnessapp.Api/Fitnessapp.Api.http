@@ -1,0 +1,33 @@
+@Fitnessapp.Api_HostAddress = http://localhost:5013
+
+
+###
+POST {{Fitnessapp.Api_HostAddress}}/api/userprofiles/
+Content-Type: application/json
+
+{
+  "name": "ervin miranda2",
+  "weight": 83,
+  "height": 172,
+  "birthDate": "1982-04-05T18:06:36.881Z"
+}
+###
+GET {{Fitnessapp.Api_HostAddress}}/api/userprofiles/3
+Accept: application/json
+
+###
+POST {{Fitnessapp.Api_HostAddress}}/api/runactivities/
+Content-Type: application/json
+
+{
+  "userProfileId": 3,
+  "location": "Rcd Silang ph4",
+  "started": "2024-07-03T18:16:05",
+  "ended": "2024-07-03T18:53:03",
+  "distance": 18
+}
+
+###
+
+GET {{Fitnessapp.Api_HostAddress}}/api/runactivities/3
+Accept: application/json

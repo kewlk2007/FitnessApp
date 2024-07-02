@@ -1,0 +1,12 @@
+2024-07-03 01:52:11.522 +08:00 [INF] GetUserProfile:
+2024-07-03 01:54:36.649 +08:00 [INF] CreateRunActivity:Fitnessapp.Api.Contracts.RunActivityResponse
+2024-07-03 02:02:43.381 +08:00 [INF] CreateRunActivity:Fitnessapp.Api.Contracts.RunActivityResponse
+2024-07-03 02:07:18.477 +08:00 [ERR] CreateUserProfileError:ervin miranda
+2024-07-03 02:07:41.805 +08:00 [INF] CreateUserProfile:Fitnessapp.Api.Contracts.UserProfileResponse
+2024-07-03 02:08:20.247 +08:00 [INF] GetUserProfile:
+2024-07-03 02:08:26.020 +08:00 [INF] GetUserProfile:
+2024-07-03 02:08:32.914 +08:00 [ERR] The userprofile with the specified ID of 3 was not found
+2024-07-03 02:08:40.909 +08:00 [INF] GetUserProfile:
+2024-07-03 02:08:48.406 +08:00 [INF] CreateUserProfile:Fitnessapp.Api.Contracts.UserProfileResponse
+2024-07-03 02:08:53.913 +08:00 [INF] GetUserProfile:
+2024-07-03 02:09:26.698 +08:00 [INF] CreateRunActivity:Fitnessapp.Api.Contracts.RunActivityResponse
